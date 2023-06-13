@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package firstGRPC;
+
+service testServices {
+    rpc getData(testMessage) returns (success);
+    rpc sendData(voidArgs) returns (totalData);
+    rpc readStream(voidArgs) returns (stream testMessage);
+}
+
+message testMessage {
+    int32 id = 1;
+    string text = 2;
+}
+
+message success {
+    int32 code = 1;
+    string message = 2;
+}
+
+message voidArgs {}
+
+message totalData {
+    repeated testMessage testMessage = 1;
+}
+
+
+

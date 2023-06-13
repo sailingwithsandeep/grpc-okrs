@@ -1,0 +1,31 @@
+{
+  "name": "grpc-okrs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+    "type": "module",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sailingwithsandeep/grpc-okrs.git"
+  },
+  "author": "Sandeep Parmar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sailingwithsandeep/grpc-okrs/issues"
+  },
+  "homepage": "https://github.com/sailingwithsandeep/grpc-okrs#readme",
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "^2.8.4"
+  }
+}

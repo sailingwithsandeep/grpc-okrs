@@ -1,0 +1,28 @@
+{
+    "name": "basics",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sailingwithsandeep/grpc-okrs.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sailingwithsandeep/grpc-okrs/issues"
+    },
+    "homepage": "https://github.com/sailingwithsandeep/grpc-okrs#readme",
+    "dependencies": {
+        "@grpc/grpc-js": "^1.8.15",
+        "@grpc/proto-loader": "^0.7.7",
+        "esm": "^3.2.25"
+    },
+    "devDependencies": {
+        "prettier": "^2.8.8"
+    }
+}
